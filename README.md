@@ -1,1 +1,3 @@
-# Simple-RNN-model-for-Google-Stock-Prediction
+**Stock Price Prediction Using Recurrent Neural Networks (RNNs)**  
+
+This project demonstrates the use of a Recurrent Neural Network (RNN) for predicting Google stock prices based on historical data. The model leverages the sequential nature of stock prices, using past 20 days of `close` prices to predict the next day's value. Key preprocessing steps include normalization, sequence creation, and data splitting. The RNN architecture consists of a Simple RNN layer, a Dropout layer to prevent overfitting, and a Dense layer for regression output. The model achieves impressive results, with a directional accuracy of 98.38% and a Mean Absolute Error (MAE) of 37.70 on actual stock prices, making it suitable for trend prediction and financial analysis.
